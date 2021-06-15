@@ -1,5 +1,13 @@
 # Twilio notifications channel for Laravel
 
+This package is a copy of the original `laravel-notification-channels/twilio` package that was deleted or made private randomly.
+
+To install run the command and no other changes are required:
+
+```
+composer require erikgall/laravel-twilio-notification-channel
+```
+
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/laravel-notification-channels/twilio.svg?style=flat-square)](https://packagist.org/packages/laravel-notification-channels/twilio)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Build Status](https://img.shields.io/github/workflow/status/laravel-notification-channels/twilio/PHP?style=flat-square)](https://travis-ci.org/laravel-notification-channels/twilio)
@@ -14,9 +22,13 @@ You are viewing the `3.x` documentation. [Click here](https://github.com/laravel
 
 ## Contents
 
+- [Contents](#contents)
 - [Installation](#installation)
+  - [Configuration](#configuration)
+  - [Advanced configuration](#advanced-configuration)
+- [Upgrading from 2.x to 3.x](#upgrading-from-2x-to-3x)
 - [Usage](#usage)
-	- [Available Message methods](#available-message-methods)
+  - [Available Message methods](#available-message-methods)
 - [Changelog](#changelog)
 - [Testing](#testing)
 - [Security](#security)
